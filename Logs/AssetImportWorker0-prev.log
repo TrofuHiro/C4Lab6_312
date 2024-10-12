@@ -1,0 +1,1246 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.37f1 (340ba89e4c23) revision 3410856'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 24000 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/bajir/C4Lab6
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61674
+Successfully changed project path to: C:/Users/bajir/C4Lab6
+C:/Users/bajir/C4Lab6
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15684] Host "[IP] 26.38.96.48 [Port] 0 [Flags] 2 [Guid] 1258159325 [EditorId] 1258159325 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7CTA2KK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15684] Host "[IP] 26.38.96.48 [Port] 0 [Flags] 2 [Guid] 1258159325 [EditorId] 1258159325 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7CTA2KK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 19.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.37f1 (340ba89e4c23)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/bajir/C4Lab6/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016073 seconds.
+- Loaded All Assemblies, in  0.635 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.502 seconds
+Domain Reload Profiling: 1133ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (255ms)
+		LoadAssemblies (187ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (249ms)
+				TypeCache.ScanAssembly (228ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (502ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (393ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.140 seconds
+Refreshing native plugins compatible for Editor in 10.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.247 seconds
+Domain Reload Profiling: 3382ms
+	BeginReloadAssembly (260ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (716ms)
+		LoadAssemblies (547ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (317ms)
+			TypeCache.Refresh (274ms)
+				TypeCache.ScanAssembly (250ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2248ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1972ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (650ms)
+			ProcessInitializeOnLoadMethodAttributes (1190ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 10.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3141 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (57.9 KB). Loaded Objects now: 3625.
+Memory consumption went from 120.3 MB to 120.2 MB.
+Total: 6.654000 ms (FindLiveObjects: 0.852500 ms CreateObjectMapping: 0.196300 ms MarkObjects: 5.447100 ms  DeleteObjects: 0.156700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 277740.890217 seconds.
+  path: Assets/Wander.asset
+  artifactKey: Guid(d4fce9becde122e45ab67825e65270a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wander.asset using Guid(d4fce9becde122e45ab67825e65270a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '63c956968f4fdb4662735f33f1054ba0') in 0.036375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 32.098993 seconds.
+  path: Assets/Blue.mat
+  artifactKey: Guid(e51e4dd46118bd147b4114a3884aec97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Blue.mat using Guid(e51e4dd46118bd147b4114a3884aec97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cf7929889f11bde564d115aa1e74bb9a') in 0.188166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/BehaviorBricks/Actions/System/Basic/toggleBool.cs
+  artifactKey: Guid(30b6c21e73f33784babecc1f9622b6ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Actions/System/Basic/toggleBool.cs using Guid(30b6c21e73f33784babecc1f9622b6ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bbd4384d14a58ae46ccfed70966a9712') in 0.030308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BehaviorBricks/Conditions/System/Basic/CheckMouseButton.cs
+  artifactKey: Guid(72bfd005e3a956140a050742a72e8f6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Conditions/System/Basic/CheckMouseButton.cs using Guid(72bfd005e3a956140a050742a72e8f6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '76b8a5f8a208b2fb95d12c55e8121254') in 0.020272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeHover.png
+  artifactKey: Guid(26d9df62dc663bf47b946807e2d10c7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeHover.png using Guid(26d9df62dc663bf47b946807e2d10c7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0ab5cb6b3e3edcb801e0379cc0d163e4') in 0.120950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneIsNight.cs
+  artifactKey: Guid(7f8adedf91a8c744a971936a0e3123ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneIsNight.cs using Guid(7f8adedf91a8c744a971936a0e3123ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5c8e7d3fca56fdbfe80b683f3b2a0f85') in 0.023681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/BehaviorBricks/Bin/BehaviorBricks.dll
+  artifactKey: Guid(4dc89775807b4e84cac33f32258c8524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Bin/BehaviorBricks.dll using Guid(4dc89775807b4e84cac33f32258c8524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '494e081a4105f210e14370f6347e1c52') in 0.044610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BehaviorBricks/Conditions/System/Basic/CheckButton.cs
+  artifactKey: Guid(0da6938d1d92aa643bb4748a9d61176b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Conditions/System/Basic/CheckButton.cs using Guid(0da6938d1d92aa643bb4748a9d61176b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c7665b98831d6ce6b73fec502b539af7') in 0.019282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/BehaviorBricks/Samples/QuickStartGuide/InitialScene/NavMesh.asset
+  artifactKey: Guid(0057c6ff34fa5324c972d374cb4d9ec8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Samples/QuickStartGuide/InitialScene/NavMesh.asset using Guid(0057c6ff34fa5324c972d374cb4d9ec8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cb156d9fd900de1e86e4bd4d0cb60d3f') in 0.040244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/Panel_Frame.png
+  artifactKey: Guid(3caa1aa7742bdf44393369dc5351e6bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/Panel_Frame.png using Guid(3caa1aa7742bdf44393369dc5351e6bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '122a7d2ee1dad1d47e70298f32700dd1') in 0.038822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/action_toolBox_main.png
+  artifactKey: Guid(11d5f6af5d6d75b4986a2cb28e7cee3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/action_toolBox_main.png using Guid(11d5f6af5d6d75b4986a2cb28e7cee3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '60e9da2ad0e3f703b42bed654ec98e63') in 0.046536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/grid.png
+  artifactKey: Guid(10d1a55a3f470ce479612156793ff138) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/grid.png using Guid(10d1a55a3f470ce479612156793ff138) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'af3004695e141a679843371dde9de810') in 0.035631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BehaviorBricks/Conditions/System/Perception/IsTargetCloseAndInSight.cs
+  artifactKey: Guid(0bce16fa0e299a747b9a5926ecce51e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Conditions/System/Perception/IsTargetCloseAndInSight.cs using Guid(0bce16fa0e299a747b9a5926ecce51e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ca6613e0b5c26a8861af0502d73c6705') in 0.019328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BehaviorBricks/readme.txt
+  artifactKey: Guid(be441ad848f615d489517ea63f800a41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/readme.txt using Guid(be441ad848f615d489517ea63f800a41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2ff4c0403b1b421548c450b1f3c3c052') in 0.017389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BehaviorBricks/Actions/System/Basic/SetInt.cs
+  artifactKey: Guid(65d065459c4c1174c940f3deb0610a51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Actions/System/Basic/SetInt.cs using Guid(65d065459c4c1174c940f3deb0610a51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fd8ab7b8d347d9032f1a02e1a2c82f77') in 0.019680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/BlackboardIcons/button_x_grey_hover.png
+  artifactKey: Guid(7be75a7db7c5ac242bb47efaf4f5d931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/BlackboardIcons/button_x_grey_hover.png using Guid(7be75a7db7c5ac242bb47efaf4f5d931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '87eb767e9834eeaebbe6fc89f3aa36d7') in 0.036076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/SeparatorPRO.png
+  artifactKey: Guid(8ac95fa43322bbe45ab277871e687078) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/SeparatorPRO.png using Guid(8ac95fa43322bbe45ab277871e687078) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e41d324fb4e262830cfb80509da1ebaa') in 0.034811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeActive.png
+  artifactKey: Guid(f0e225660b7a46c4c8853c756a6956b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeActive.png using Guid(f0e225660b7a46c4c8853c756a6956b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4aaa079b8194aa774a5b19fea4a82807') in 0.036538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/textFrameFocusPRO.png
+  artifactKey: Guid(24068b72e921b4044b6611ad6a5216f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/textFrameFocusPRO.png using Guid(24068b72e921b4044b6611ad6a5216f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd1a4f7645cb6d466caef029eddbe4029') in 0.042216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BehaviorBricks/Actions/System/GameObject/Instantiate.cs
+  artifactKey: Guid(ef09ea8ca2f9020498b30724d07a4705) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Actions/System/GameObject/Instantiate.cs using Guid(ef09ea8ca2f9020498b30724d07a4705) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6a7de461b715c1c6261228c355c0bb3f') in 0.021495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BehaviorBricks/Actions/System/Navigation/MoveToGameObject.cs
+  artifactKey: Guid(37699beccafaf6540a2a8f37360e5e4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Actions/System/Navigation/MoveToGameObject.cs using Guid(37699beccafaf6540a2a8f37360e5e4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '43d677379e8e368e3ada63e149e79d54') in 0.016951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Wander.asset
+  artifactKey: Guid(d4fce9becde122e45ab67825e65270a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Wander.asset using Guid(d4fce9becde122e45ab67825e65270a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ee9277f87962defa8a2a7d866ed7486e') in 0.048305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/textFrameDisabledPRO.png
+  artifactKey: Guid(d7a75f2c7c6a3af41a38a4f20ced9abb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/textFrameDisabledPRO.png using Guid(d7a75f2c7c6a3af41a38a4f20ced9abb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '01831c49951165814630d97b3fdd1239') in 0.039915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/close.png
+  artifactKey: Guid(ef0288daa1165a849a3303aaf09c91db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/close.png using Guid(ef0288daa1165a849a3303aaf09c91db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dad0ed70c82cc59be8470d3aa67811c7') in 0.040184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/behavior_toolBox_main.png
+  artifactKey: Guid(4632d710c9a1eab4893106cb75b263b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/behavior_toolBox_main.png using Guid(4632d710c9a1eab4893106cb75b263b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2f463af2620eb004ee6a4a4e244cf979') in 0.045968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/ListContainer/LoupeEndHoverButton.png
+  artifactKey: Guid(f57876c96d9741c409531bd0d46877f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/ListContainer/LoupeEndHoverButton.png using Guid(f57876c96d9741c409531bd0d46877f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ae2a6c01e123d52a2860fa1696540840') in 0.050951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/ListContainer/LoupeEndNoButton.png
+  artifactKey: Guid(9799b85a34d401440a262694ca91543b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/ListContainer/LoupeEndNoButton.png using Guid(9799b85a34d401440a262694ca91543b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2e778bea60e6a614945963c6fab48fee') in 0.040083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/connector_male_connected_hover.png
+  artifactKey: Guid(7c148ea6c2bf4c1448e22d40e2a257c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/connector_male_connected_hover.png using Guid(7c148ea6c2bf4c1448e22d40e2a257c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '860df30c8085651b722736b2abb498b3') in 0.039461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/ListContainer/LoupeEndHoverButtonPRO.png
+  artifactKey: Guid(5cee926a7e596f840a3193043ec86f37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/ListContainer/LoupeEndHoverButtonPRO.png using Guid(5cee926a7e596f840a3193043ec86f37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ec191233f010cb155956625dabd54439') in 0.038340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/connector_female_hover.png
+  artifactKey: Guid(8c375a4bb0013ab4fb636e3a32a82e60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/connector_female_hover.png using Guid(8c375a4bb0013ab4fb636e3a32a82e60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6e00bb311c8f13419b6304cdbc630cab') in 0.039265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/Menu/redo_pressed.png
+  artifactKey: Guid(47315d86a06d52946be8a7e700014e72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/Menu/redo_pressed.png using Guid(47315d86a06d52946be8a7e700014e72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '42ef6d6b4e8b8e2eceab53dd7e670bfa') in 0.038688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_action_hover.png
+  artifactKey: Guid(6d6c6ae10e60b714da9c68046440342c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_action_hover.png using Guid(6d6c6ae10e60b714da9c68046440342c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1ab4fdf08165b3de8fcd0012b9ee659d') in 0.033253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/node_hover.png
+  artifactKey: Guid(5a51f3a2d2c585e4c8aa4e0904076eae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/node_hover.png using Guid(5a51f3a2d2c585e4c8aa4e0904076eae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bcd2dd0733202983d0642d2ccd211d4e') in 0.037948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/Menu/undo_hover.png
+  artifactKey: Guid(45a60fa160be16745be493dae1b4edac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/Menu/undo_hover.png using Guid(45a60fa160be16745be493dae1b4edac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7406816799cbde411f1bbea24efd0caf') in 0.037273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneShootOnce.cs
+  artifactKey: Guid(7cbc47540f0b0754ca8e0b66781be9e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneShootOnce.cs using Guid(7cbc47540f0b0754ca8e0b66781be9e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3093def915d9de92ececc44cc52682ee') in 0.017302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneBullet.prefab
+  artifactKey: Guid(5054610a218ed66468343c7d064e0a66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneBullet.prefab using Guid(5054610a218ed66468343c7d064e0a66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0678dc3a4f3a76d273b3127e107cc832') in 0.068921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/connector_female_lighting_hover.png
+  artifactKey: Guid(2c09c2dade3c7f846acb949f7c80687b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/connector_female_lighting_hover.png using Guid(2c09c2dade3c7f846acb949f7c80687b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '030a203c907fb5bdb06f1fad2da460ae') in 0.035322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/BlackboardIcons/ParamInOut.png
+  artifactKey: Guid(5a6eac5740ee00b4ab1e7b409d7a8bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/BlackboardIcons/ParamInOut.png using Guid(5a6eac5740ee00b4ab1e7b409d7a8bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e129d293e2f658b80bbb272e16ec6a98') in 0.032490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BehaviorBricks/Actions/System/Vector3/GetRandomInArea.cs
+  artifactKey: Guid(6effe00d388c3674e9bdacaa8d677fe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Actions/System/Vector3/GetRandomInArea.cs using Guid(6effe00d388c3674e9bdacaa8d677fe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3aaab323b46ba9534d456bb33963afc1') in 0.017992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BehaviorBricks/Bin/BBEditor.dll
+  artifactKey: Guid(17b15f766d5f5814c80484e3d0436d45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Bin/BBEditor.dll using Guid(17b15f766d5f5814c80484e3d0436d45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '95e2ed795c35a4d400694e49b300a836') in 0.060701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Fonts/Biko_Bold.otf
+  artifactKey: Guid(e224b62d1bda84749a8f4ca8ffe25255) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Fonts/Biko_Bold.otf using Guid(e224b62d1bda84749a8f4ca8ffe25255) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6be38de1bc65b5dddfaaab100dfafeba') in 0.039328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/connector_female_normal.png
+  artifactKey: Guid(993652808c9420548a8d4ade43a6c42e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/connector_female_normal.png using Guid(993652808c9420548a8d4ade43a6c42e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '16ee0d61c7b17874cc1bc6a9059e6a72') in 0.033907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/connector_female_connected_hover.png
+  artifactKey: Guid(2fa0ffd1cd209374a9953c111abc020b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/connector_female_connected_hover.png using Guid(2fa0ffd1cd209374a9953c111abc020b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8b94b6a7bc7f26c4e6e2c03423a4fe95') in 0.032005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BehaviorBricks/Conditions/System/Perception/IsTargetInSight.cs
+  artifactKey: Guid(48eebc8f4fd83a946833646d0f603478) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Conditions/System/Perception/IsTargetInSight.cs using Guid(48eebc8f4fd83a946833646d0f603478) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dd8ae04ff8098f6f412ae491e33fc2c2') in 0.014272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Skins/BBProSkin.guiskin
+  artifactKey: Guid(241b309db67a4b44aa82119f5203244d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Skins/BBProSkin.guiskin using Guid(241b309db67a4b44aa82119f5203244d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f58060aea5efc54aca68fc7a28a1c193') in 0.108354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/auxTextures/BlackTexture.png
+  artifactKey: Guid(cdb3a611c504a75498b0251f222b0893) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/auxTextures/BlackTexture.png using Guid(cdb3a611c504a75498b0251f222b0893) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b4d5f7c8a376722b123cc4dc9b10c447') in 0.034857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/buttonFrameDisabled.png
+  artifactKey: Guid(a43314653df38f44e9d5d8a6cbc69770) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/buttonFrameDisabled.png using Guid(a43314653df38f44e9d5d8a6cbc69770) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9020c8028a9d459c621e42241809ed14') in 0.030121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Backgrounds/BackgroundPrioritySelector.png
+  artifactKey: Guid(fd6b095a59cd70340a7e2ef18a0e8f8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Backgrounds/BackgroundPrioritySelector.png using Guid(fd6b095a59cd70340a7e2ef18a0e8f8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '99de9d8dc4cf09ac3fb4f47d752e64fc') in 0.035650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/moveHover.png
+  artifactKey: Guid(709970cf0c07a364ba542dc988d9f810) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/moveHover.png using Guid(709970cf0c07a364ba542dc988d9f810) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '231d977eb8f9b0d54f0fa4db13c569ec') in 0.032451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/connector_female_connected_normal.png
+  artifactKey: Guid(fe3fc3817071b464b87de55296a5f4d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/connector_female_connected_normal.png using Guid(fe3fc3817071b464b87de55296a5f4d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '10fb7112ce8308dee81d711125152033') in 0.035185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/TreeViewController/sibling_collapsed.png
+  artifactKey: Guid(9fc6e702bb4dd334f80c5c82569bb25d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/TreeViewController/sibling_collapsed.png using Guid(9fc6e702bb4dd334f80c5c82569bb25d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '37c8c4a13a3179c3cb2b564778a34b86') in 0.037860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneScene/DoneScene.unity
+  artifactKey: Guid(29bf8a63e10310347b165e3b4520659b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneScene/DoneScene.unity using Guid(29bf8a63e10310347b165e3b4520659b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '15e13f2bcad268c78def4f788bb098e2') in 0.018318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_action_pressed.png
+  artifactKey: Guid(7a7a6e59f91515746b2f4c6c9bc9a6ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_action_pressed.png using Guid(7a7a6e59f91515746b2f4c6c9bc9a6ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0716c47be0426b1cfd19db5e0e38ac5f') in 0.040888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_sequence_pressed.png
+  artifactKey: Guid(a9b928e93a7888e4090d6f2b4ca75859) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_sequence_pressed.png using Guid(a9b928e93a7888e4090d6f2b4ca75859) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bf86617ced1880644dbe6ff71af3d0d9') in 0.038372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_inversor_pressed.png
+  artifactKey: Guid(fd8991f1ee6c1a4469f6be989a5a26de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_inversor_pressed.png using Guid(fd8991f1ee6c1a4469f6be989a5a26de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '24dce2c0f21c822a284b5038fb72a6be') in 0.037498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/TabbedPanel/SmallArrowRight.png
+  artifactKey: Guid(418a328ca4c20034faf299b4ca6a442b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/TabbedPanel/SmallArrowRight.png using Guid(418a328ca4c20034faf299b4ca6a442b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7d7d2d2ffa3d7500736588f3d1909ab8') in 0.040068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_randomSelector_pressed.png
+  artifactKey: Guid(b2566a68466fd1f40bc854478d48d163) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_randomSelector_pressed.png using Guid(b2566a68466fd1f40bc854478d48d163) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4462947249d10ec841f441d5186e21a6') in 0.042457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_selector_pressed.png
+  artifactKey: Guid(be7a2df8da1d10945bacbf7a27d586e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_selector_pressed.png using Guid(be7a2df8da1d10945bacbf7a27d586e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3df1949edc5057b34fd3bddad8ddff8e') in 0.038546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_sequence_hover.png
+  artifactKey: Guid(5c0828b58ed74eb499a22e425af922f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_sequence_hover.png using Guid(5c0828b58ed74eb499a22e425af922f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c6f2cbb3c81108e8dbf2679bba3ba758') in 0.036506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_parallel_hover.png
+  artifactKey: Guid(6e1285dcd37250c4380aaee1268b9b2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_parallel_hover.png using Guid(6e1285dcd37250c4380aaee1268b9b2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '13eac0d5afb2a4034b50adfa23e8c230') in 0.037084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_parallel_pressed.png
+  artifactKey: Guid(3f1c4a32424fc7249b5a881f73dfc798) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_parallel_pressed.png using Guid(3f1c4a32424fc7249b5a881f73dfc798) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2eba44c7ea13a189aaf5abcca1b0e944') in 0.039267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/TabbedPanel/tab_normal.png
+  artifactKey: Guid(73863a3fb5619f64daf9c885892c8819) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/TabbedPanel/tab_normal.png using Guid(73863a3fb5619f64daf9c885892c8819) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '955eab1433aa184d4c2cbed6b6c7bb2a') in 0.034683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_condition_pressed.png
+  artifactKey: Guid(868580a0d07c06149bfb4b06989c16ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_condition_pressed.png using Guid(868580a0d07c06149bfb4b06989c16ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '200c2d1b3dab7049343114abe16ac672') in 0.048253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_randomSelector_normal.png
+  artifactKey: Guid(2a53bff4414d00a43ab2fb839952332d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_randomSelector_normal.png using Guid(2a53bff4414d00a43ab2fb839952332d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b5d2aa666c9a27dac56845ade42bbc35') in 0.040414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/GUI Skins/Editor/Textures/behaviourSheet_background.png
+  artifactKey: Guid(1cbeac0aa048cb441ad90268daf04bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/GUI Skins/Editor/Textures/behaviourSheet_background.png using Guid(1cbeac0aa048cb441ad90268daf04bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '26e705d234c341374143642616293bde') in 0.071610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BehaviorBricks/Samples/QuickStartGuide/Done/DoneScene/DoneScenePerformance.unity
+  artifactKey: Guid(f3411995bec273842810b6f58e640e1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Samples/QuickStartGuide/Done/DoneScene/DoneScenePerformance.unity using Guid(f3411995bec273842810b6f58e640e1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cabb5905c5ddcda3fd935ef15fce46a0') in 0.017880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/NodeSymbols/symbol_guarda.png
+  artifactKey: Guid(e476d229d7e38c744bc75048b03a5197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/NodeSymbols/symbol_guarda.png using Guid(e476d229d7e38c744bc75048b03a5197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5847d7b6278a82fa361980ff166497e8') in 0.038417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/GUI Skins/Editor/Textures/node_main.png
+  artifactKey: Guid(c5f0da36b57a6564f8a9fddbfb3bf35e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/GUI Skins/Editor/Textures/node_main.png using Guid(c5f0da36b57a6564f8a9fddbfb3bf35e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3a4d54e4b3a8645daa754d7ecacefc9c') in 0.039859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/GUI Skins/Editor/Textures/behaviourSheet_bg_right.png
+  artifactKey: Guid(80c95383d4cac784d983ef580eead969) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/GUI Skins/Editor/Textures/behaviourSheet_bg_right.png using Guid(80c95383d4cac784d983ef580eead969) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f0971d82e34470cec604816ee37ab16d') in 0.061137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/GUI Skins/Editor/Textures/node_hover.png
+  artifactKey: Guid(05e2e19ede7ceca4fb1a43ef8c7951a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/GUI Skins/Editor/Textures/node_hover.png using Guid(05e2e19ede7ceca4fb1a43ef8c7951a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4432b7d7aeef05d450f8b95b86ff1a45') in 0.194402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BehaviorBricks/Samples/QuickStartGuide/Done/Resources/Enemy.prefab
+  artifactKey: Guid(9a13705e440519e4ea5b248f89a0ba6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Samples/QuickStartGuide/Done/Resources/Enemy.prefab using Guid(9a13705e440519e4ea5b248f89a0ba6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+DeserializeNextElement: Viene otra cosa: EndElement. TerminamosDeserializeNextElement: Viene otra cosa: EndElement. Terminamos -> (artifact id: '2d4c49626e9fa789686ad7951c895391') in 0.101102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/NodeSymbols/symbol_parallel.png
+  artifactKey: Guid(df2cb453e3bc18a459681ad7a5c17832) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/NodeSymbols/symbol_parallel.png using Guid(df2cb453e3bc18a459681ad7a5c17832) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3fb44795df124dc6fcbfb996467f781a') in 0.042741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/GUI Skins/Editor/Textures/connector_male_hover.png
+  artifactKey: Guid(5e0cf63f8ee0b454589f513fd6278a76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/GUI Skins/Editor/Textures/connector_male_hover.png using Guid(5e0cf63f8ee0b454589f513fd6278a76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd9914e2b91ef58970cbc529bcad85d6f') in 0.040793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_randomSequence_normal.png
+  artifactKey: Guid(b99f1354e36f419479552b6277ee2475) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_randomSequence_normal.png using Guid(b99f1354e36f419479552b6277ee2475) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '617b54cb4d9cdcf435296ebbee38b39d') in 0.040546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_condition_normal.png
+  artifactKey: Guid(e5c088250488030488b6f7e60657edd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_condition_normal.png using Guid(e5c088250488030488b6f7e60657edd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ac4e96a7a61793df4e02d43f1df5949b') in 0.036041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/NodeSymbols/symbol_repeat.png
+  artifactKey: Guid(22ffeaa7a0e94ad4db75e1a07f177431) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/NodeSymbols/symbol_repeat.png using Guid(22ffeaa7a0e94ad4db75e1a07f177431) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '354e76aff61e657e58a794e4af2ec22e') in 0.039992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BehaviorBricks/Samples/QuickStartGuide/Done/DoneScene/NavMesh.asset
+  artifactKey: Guid(86b3c9c76544a054d8089c08ad53b695) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Samples/QuickStartGuide/Done/DoneScene/NavMesh.asset using Guid(86b3c9c76544a054d8089c08ad53b695) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fa2889170307d997b681d63c1563f13a') in 0.022765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BehaviorBricks/Samples/QuickStartGuide/Done/Resources/Behaviors/DoneAbortableClickAndGo.asset
+  artifactKey: Guid(94f7b8d9d503df647aec1b5cdce03b4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Samples/QuickStartGuide/Done/Resources/Behaviors/DoneAbortableClickAndGo.asset using Guid(94f7b8d9d503df647aec1b5cdce03b4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+DeserializeNextElement: Viene otra cosa: EndElement. TerminamosDeserializeNextElement: Viene otra cosa: EndElement. Terminamos -> (artifact id: 'dcfb32628f0c4b13a8d60989c0e3ad90') in 0.022445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_action_normal.png
+  artifactKey: Guid(2a6a68bd05df3e84ba5b4964de07340e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_action_normal.png using Guid(2a6a68bd05df3e84ba5b4964de07340e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd4cf09eaf8bc87e45d4ec93b47d442ff') in 0.040670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/TabbedPanel/SmallArrowRight_pro.png
+  artifactKey: Guid(9c6f5bb76565da044b7217bc4a5ef26c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/TabbedPanel/SmallArrowRight_pro.png using Guid(9c6f5bb76565da044b7217bc4a5ef26c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1f9711d78015b66ec1d792c79ba67e20') in 0.039319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneScene/NavMesh.asset
+  artifactKey: Guid(26d34db2d1360c54399eaf11bc2b214c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneScene/NavMesh.asset using Guid(26d34db2d1360c54399eaf11bc2b214c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5436413d6bdd98af78dd734b19b11f28') in 0.022140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/NodeSymbols/symbol_inversor.png
+  artifactKey: Guid(c11fa9bb9fb65c84494ed61ad4ec9698) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/NodeSymbols/symbol_inversor.png using Guid(c11fa9bb9fb65c84494ed61ad4ec9698) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7e925632aac625b791605de3ca89b536') in 0.038371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Backgrounds/Background_64x64_GRID.png
+  artifactKey: Guid(4c06a50c07c433541b2e7aee814f66c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Backgrounds/Background_64x64_GRID.png using Guid(4c06a50c07c433541b2e7aee814f66c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '52bd2730050af3405c13776089f4874a') in 0.043415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BehaviorBricks/Actions/System/Animation/PlayAnimation.cs
+  artifactKey: Guid(5b50aa5ed9aedd345971a58c73ef0873) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Actions/System/Animation/PlayAnimation.cs using Guid(5b50aa5ed9aedd345971a58c73ef0873) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '96ef9575c1540686221bd65f89f9a2ad') in 0.022569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneBulletScript.cs
+  artifactKey: Guid(4486a9bf582331b4c99fa37bb5348247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneBulletScript.cs using Guid(4486a9bf582331b4c99fa37bb5348247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '94afac17cb55f1a29dbcd3e9f5292b94') in 0.018354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BehaviorBricks/Actions/System/Basic/WaitForSeconds.cs
+  artifactKey: Guid(893b7d51e3dde1e4ba0f89edc56547da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Actions/System/Basic/WaitForSeconds.cs using Guid(893b7d51e3dde1e4ba0f89edc56547da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8bb55edb59135ac4c2e1469d554212bc') in 0.018925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/BehaviorBricks/Actions/System/GameObject/LookAt.cs
+  artifactKey: Guid(9fae9e1e66eedac478326111fb8cdc83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Actions/System/GameObject/LookAt.cs using Guid(9fae9e1e66eedac478326111fb8cdc83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f48aa5e10fdfb7b74c5711730123ebc3') in 0.018607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_randomSelector_hover.png
+  artifactKey: Guid(5bcbb95d20aabea46bf4128c934d4df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_randomSelector_hover.png using Guid(5bcbb95d20aabea46bf4128c934d4df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6dbe2bb07406ac704f27bf8b187603f7') in 0.039862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_guarda_hover.png
+  artifactKey: Guid(79f162a3e710a5043b0df51e1126fcee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_guarda_hover.png using Guid(79f162a3e710a5043b0df51e1126fcee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cb39d93d33f720c326bff07e4c2457e0') in 0.038502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BehaviorBricks/Samples/QuickStartGuide/Done/DoneScene/DoneScene.unity
+  artifactKey: Guid(2c526cbaa82074446a18a1316680d3f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Samples/QuickStartGuide/Done/DoneScene/DoneScene.unity using Guid(2c526cbaa82074446a18a1316680d3f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0768fc657238b4c0c5bbf9d4fc13fc34') in 0.017199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/buttonFrame.png
+  artifactKey: Guid(ef2ad5c00a3ec054fa2d27056f93fe72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/buttonFrame.png using Guid(ef2ad5c00a3ec054fa2d27056f93fe72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd23371dfbe6f9f57e7204e5dbfc2af2c') in 0.051510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/textFrameDisabled.png
+  artifactKey: Guid(a5d64432bd9b21140a83ed36583f40ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/textFrameDisabled.png using Guid(a5d64432bd9b21140a83ed36583f40ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8c800f2980e9d3f0b52933fd9f13dd04') in 0.034330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/GUI Skins/Editor/Textures/connector_male_normal.png
+  artifactKey: Guid(ff9cb2c2a02240644abe06ff9a69f87f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/GUI Skins/Editor/Textures/connector_male_normal.png using Guid(ff9cb2c2a02240644abe06ff9a69f87f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '59cf50f23243788d8a97bea1d3c87989') in 0.042668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/Menu/redo_hover.png
+  artifactKey: Guid(59b59c09654db2242bb3ce5cfcc37209) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/Menu/redo_hover.png using Guid(59b59c09654db2242bb3ce5cfcc37209) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a1cc604021bf783f88b145563565dbb5') in 0.035148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BehaviorBricks/Actions/System/Basic/SetBool.cs
+  artifactKey: Guid(9ce2bdf95ab0177498e8a851af2c3879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Actions/System/Basic/SetBool.cs using Guid(9ce2bdf95ab0177498e8a851af2c3879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4ace4c1a09171ffdd601ba91de99c3cb') in 0.022301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_sequence_normal.png
+  artifactKey: Guid(1234d3527f3729346acc4072547087e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_sequence_normal.png using Guid(1234d3527f3729346acc4072547087e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f210e2251588218507ffaddf3a0eefa9') in 0.044180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BehaviorBricks/BrickAsset.cs
+  artifactKey: Guid(34a7c8ca992f915438a96c2077353778) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/BrickAsset.cs using Guid(34a7c8ca992f915438a96c2077353778) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0f73a08ce3d6b7bac0abccf9c99de44d') in 0.017710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BehaviorBricks/Samples/QuickStartGuide/Done/Resources/Behaviors/DoneWander.asset
+  artifactKey: Guid(8adfddffa70852a45ba1b64354494e3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Samples/QuickStartGuide/Done/Resources/Behaviors/DoneWander.asset using Guid(8adfddffa70852a45ba1b64354494e3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5d1e25942c663f1bd5a6cf5fca8e14df') in 0.022399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/BlackboardIcons/ParamOut.png
+  artifactKey: Guid(db1ef7a3330861540870d16c3136f6b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/BlackboardIcons/ParamOut.png using Guid(db1ef7a3330861540870d16c3136f6b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8c8c413a3cf4ad0b23dce5d3bec65820') in 0.038765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/TreeViewController/Condition_Icon_small.png
+  artifactKey: Guid(dfc83773c6f32fb42a8d290c102db66f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/TreeViewController/Condition_Icon_small.png using Guid(dfc83773c6f32fb42a8d290c102db66f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5f7b65e82f0e6af320d3655546fa2c58') in 0.039973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_guarda_normal.png
+  artifactKey: Guid(e38018beb13b94345b06557518531a29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_guarda_normal.png using Guid(e38018beb13b94345b06557518531a29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'db497f5e8ccbd167a56a30775e601f76') in 0.031779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/node_main.png
+  artifactKey: Guid(f9d08cc61a93f604381e999d1dc134ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/node_main.png using Guid(f9d08cc61a93f604381e999d1dc134ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '98498eb262e86bddde383992a79eb1a2') in 0.046054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BehaviorBricks/Editor/BehaviorExecutorEditor.cs
+  artifactKey: Guid(3ac5b059c77d7f84c99475e8d66b9749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/BehaviorExecutorEditor.cs using Guid(3ac5b059c77d7f84c99475e8d66b9749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '30d469618de036013bbc94954d4b2241') in 0.017721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/textFramePRO.png
+  artifactKey: Guid(32b340b70786eb84391cf0276b2d48de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/textFramePRO.png using Guid(32b340b70786eb84391cf0276b2d48de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd8452e49e6cf149138dff244b9810b46') in 0.035232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/BlackboardIcons/ParamIn.png
+  artifactKey: Guid(71c25e60fa35bd345ab8e08ad252fc32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/BlackboardIcons/ParamIn.png using Guid(71c25e60fa35bd345ab8e08ad252fc32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0684778b054f780ddf65584350977d1a') in 0.034577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/TreeViewController/selected_background.png
+  artifactKey: Guid(32213cd229937d047b9259c828336274) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/TreeViewController/selected_background.png using Guid(32213cd229937d047b9259c828336274) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c61000f2d3523a4a9b3a4e31faffa14e') in 0.037269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/Panel_FramePRO.png
+  artifactKey: Guid(e3312ad0aeeceb84fbba810b6ca2c16c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/Panel_FramePRO.png using Guid(e3312ad0aeeceb84fbba810b6ca2c16c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1d39d0abf0c1addd690e19eacfe7a5fe') in 0.033426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/NodeSymbols/symbol_prioritySelector.png
+  artifactKey: Guid(bbcb509adb044834ebfc70349df762f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/NodeSymbols/symbol_prioritySelector.png using Guid(bbcb509adb044834ebfc70349df762f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dc2e6661b8d18130d1c5de22cac2e0e8') in 0.037966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/auxTextures/BlueTexture.jpg
+  artifactKey: Guid(9a919d069565ff345819ed5759014950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/auxTextures/BlueTexture.jpg using Guid(9a919d069565ff345819ed5759014950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8b33941f18037788f7baaef6089b8765') in 0.036000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/NodeSymbols/symbol_randomSelector.png
+  artifactKey: Guid(f907b7c916a92ef46ad389b48bf7929c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/NodeSymbols/symbol_randomSelector.png using Guid(f907b7c916a92ef46ad389b48bf7929c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9f7b41de4e510ee054a6e88daa2b5c0a') in 0.040115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneScene/DoneSceneSettings.lighting
+  artifactKey: Guid(f26fb2297d44cf44c919651ad94b6d05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneScene/DoneSceneSettings.lighting using Guid(f26fb2297d44cf44c919651ad94b6d05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '3b80e5b9382daf40d0e6810bc691d47c') in 0.039999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BehaviorBricks/Conditions/System/Perception/IsTargetClose.cs
+  artifactKey: Guid(28aa21d24a03c0f42b4c93adf9647d2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Conditions/System/Perception/IsTargetClose.cs using Guid(28aa21d24a03c0f42b4c93adf9647d2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8c37f5d309c3421575c6a995e7ac6bad') in 0.019447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/ListContainer/LoupeMiddlePRO.png
+  artifactKey: Guid(4d345d9f1706c5f44beef0b240b2affe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/ListContainer/LoupeMiddlePRO.png using Guid(4d345d9f1706c5f44beef0b240b2affe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a8fe0d7797512f52e1334711170dff31') in 0.043629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/BehaviorBricks/Conditions/System/Basic/CheckBool.cs
+  artifactKey: Guid(826b44f073bcf4841ae86951ac152eb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Conditions/System/Basic/CheckBool.cs using Guid(826b44f073bcf4841ae86951ac152eb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '782a267265026f452062af7cca3f76c7') in 0.019191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/connector_male_normal.png
+  artifactKey: Guid(9036bd6e8520e8f4881e973574136a02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/connector_male_normal.png using Guid(9036bd6e8520e8f4881e973574136a02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9f4617055c6c57d79df5e16c9b53ea16') in 0.034069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Fonts/Biko_Black.otf
+  artifactKey: Guid(4b33420a4f4403c4fb8dd41e235abe38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Fonts/Biko_Black.otf using Guid(4b33420a4f4403c4fb8dd41e235abe38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1e3c6b511fa1c382b18c5eb22ba07661') in 0.039328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/connector_female_lighting.png
+  artifactKey: Guid(2b2867074f0db9b429c6b904153018e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/FreeTreeView/connector_female_lighting.png using Guid(2b2867074f0db9b429c6b904153018e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f7a0377b7093b0339bc78d96b488e8bc') in 0.041660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_repeat_hover.png
+  artifactKey: Guid(f89c67c7871150a448cc5d299129b99d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BehaviorBricks/Editor/Resources/Images/NodeButtons/btn_repeat_hover.png using Guid(f89c67c7871150a448cc5d299129b99d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2f6493c131301f4d84d0c81f2de2019c') in 0.037904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
